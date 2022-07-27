@@ -1,12 +1,14 @@
-cmpt470-exercise8
+## Purpose:
+learn how to use Django and cooperate with Python to build background management.
 
+### Task:
 Using django to implement the contact manager
 
-URL: Ater docker-compose up, this app can only run on http://localhost:8000/ now
-
+### URL: 
+Ater docker-compose up, this app can only run on http://localhost:8000/ now
 I will change to http://localhost:8080/ for next exercise.
 
-In addition:
+### In addition:
 
 I think I clear the database, there will be no contact list on the homepage and need to create the new person to test by clicking add a new contact.
 
