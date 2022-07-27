@@ -1,0 +1,7 @@
+FROM python:3.7
+WORKDIR /code
+ENV PYTHONUNBUFFERED=1
+COPY requirements.txt /tmp/
+RUN pip install -r /tmp/requirements.txt
+CMD python contactlist/manage.py migrate \
+&& python contactlist/manage.py runserver 0:8000
